@@ -7,9 +7,6 @@ class River
     @fishes = []
   end
 
-
-
-
   def take_fish_from_river(fish)
     @fishes.delete(fish)
 
