@@ -11,10 +11,6 @@ class FishTest < MiniTest::Test
     @fish = Fish.new("Nemo")
   end
 
-  # def test_can_create_fish()
-  #   assert_equal(Fish, @fish.class())
-  # end
-
   def test_fish_name()
     assert_equal("Nemo", @fish.name)
   end
